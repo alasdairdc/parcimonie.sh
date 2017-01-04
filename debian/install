@@ -1,0 +1,5 @@
+parcimonie.sh usr/share/parcimonie.sh/
+README.md usr/share/parcimonie.sh/
+pkg/parcimonie.sh@.service lib/systemd/system/
+pkg/all-users.conf etc/parcimonie.sh.d/
+pkg/sample-configuration.conf.sample etc/parcimonie.sh.d/

@@ -1,0 +1,13 @@
+Source: parcimonie.sh
+Section: utils
+Priority: extra
+Maintainer: Alasdair Campbell <alasdair@campbelldiagnostics.co.uk>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.6
+
+Package: parcimonie.sh
+Architecture: all
+Depends: ${misc:Depends}, bash, tor, gnupg
+Description: Bash reimplementation of parcimonie
+ Refresh your GnuPG keyring without disclosing your whole
+ contact list to the world.
